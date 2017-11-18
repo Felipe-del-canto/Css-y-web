@@ -10,3 +10,14 @@ img
 {
   border-radius: 10px;
 }
+#contenido{
+  font-family: helvetica;
+  font-size: 36px;
+  display: block;
+  margin: 0 auto;
+}
+.rp{
+  list-style-type: upper-roman;
+  font-kerning: 2
+  
+}
