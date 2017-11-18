@@ -6,18 +6,46 @@ footer
 {
   margin-top: 20px;
 }
-img
-{
-  border-radius: 10px;
-}
+
 #contenido{
   font-family: helvetica;
-  font-size: 36px;
+  font-size: 10px;
   display: block;
   margin: 0 auto;
 }
 .rp{
   list-style-type: upper-roman;
   font-kerning: 2
-  
+}
+
+a[href^="#"]{
+  color: red;
+}
+
+img[src$=".svg"]{
+  border-radius: 50px
+}
+
+img[src$=".jpg"], img[src$=".png"]{
+  border: 1px solid black;
+  border-radius: 10px
+}
+
+*{
+  margin: 1vh 1vw;
+}
+
+h1 + h2{
+  text-decoration: underline;
+}
+
+h2 ~ ul{
+  text-decoration: underline;
+}
+section> h2{
+  text-decoration: underline;
+}
+
+ul li{
+  list-style-type: circle;
 }
