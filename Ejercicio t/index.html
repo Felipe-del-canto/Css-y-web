@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device=width,user-scalable=no">
+    <title>Ejercicio selectores</title>
+    <style media="screen">
+      h1
+      {
+        font-size: 50px;
+      }
+    </style>
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+  <body id="contenedor">
+    <!---
+      Encabezado de la hoja de vida, esta seccion contiene foto,
+      inforcacion personal y la lista de contenido
+    -->
+    <header id="Encabezado">
+      <img src="img/Foto_perfil.jpg" alt="Foto_perfil - Felipe Del Canto" width="250" height="250">
+      <h1 style="color:red">Felipe Del Canro Franco</h1>
+      <h2>Edad: 30</h2>
+      <h2>Profecion: Oficial de Ej&eacute;rcito</h2>
+      <b>Contenido de la hoja de vida</b>
+      <nav>
+        <ol>
+          <li class="itemIndicde"><a class="enlace" href="#AcercaDe">Acerca de Mi</a></li>
+          <li><a href="#Estudios">Estudios realizados</a></li>
+          <li><a href="#Extras">Estudios y Certificaciones Extras</a></li>
+          <li><a href="#Habilidaes">Habilidades</a></li>
+          <li><a href="Contacto">Contacto</a></li>
+          <li><a href="Pie">Resdes Sociales e inforcacion personal</a></li>
+        </ol>
+      </nav>
+    </header>
+    <!---
+      Esta seccion contiene una descripcion acerca de mi perfil
+      profecional
+    -->
+    <section id="AcercaDe">
+      <h2>Acerca de Mi:</h2>
+      <p>
+        A la edad de los 18 años cuando cursaba 4to. Medio en el colegio de los sagrados corazones en viña del mar, decid&iacute; entrar al Ej&eacute;rcito, por lo que me fui el 2006 a la escuela militar en Santiago, dejando de lado a mis padres y amigos.
+El año 2008 cuando me encontraba en 3er. Año de escuela, realice el curso de paracaidismo b&aacute;sico militar, curso muy exigente que  duro 5 semanas.
+Despu&eacute;s de cuatro años egrese de la escuela militar como Alférez de Ej&eacute;rcito donde fui trasladado a la ciudad de linares, para continuar mis estudios como oficial de Artiller&iacute;a, posterior a eso me traslade a la ciudad de putre.
+Realice el curso de guerra especial mención liderazgo el año 2014.
+Actual mente me encuentro estudiando algo que desde siempre me gusto, pero lo deje de lado para realizar otro de mis sueños. Y ahora que esta la modalidad online no voy a perder tiempo y comenzare otro de mis sueños el cual es ser un gran programador.
+
+      </p>
+    </section>
+    <!--
+      Esta seccion es un contenedor para agrupar los Estudios Realizados,
+      Estudios y Cestificacionesextras,
+      Habilidades y el Formulario de contacto, es la seccion principal de la
+      Hoja de Vida
+    -->
+
+    <section id="Indice">
+      <!-- Estudios Realizados -->
+
+      <article id="Estudios">
+        <h2>Estudios Realizados</h2>
+        <ul>
+          <li>
+            Escolar
+            <a href="http://www.colegiosscc.cl/">SS.CC</a>
+            <img src="img/logosscc.png" alt="Colegio SSCC" width="100" height="60">
+          </li>
+          <li>
+            Escuela militar
+            <a href="http://www.escuelamilitar.cl/web/escuelamilitar/index.php/es/">Escuela Militar</a>
+            <img src="img/logoescmil.jpg" alt="Escuela Militar" width="100" height="60">
+          </li>
+          <li>
+            Ej&eacute;rcito
+            <a href="https://www.ejercito.cl/home">Ej&eacute;rcito</a>
+            <img src="img/logoejercito.gif" alt="Ej&eacute;rcito" width="100" height="60">
+          </li>
+        </ul>
+
+      </article>
+
+    </section>
+  </body>
+</html>
